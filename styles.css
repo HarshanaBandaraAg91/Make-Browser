@@ -9,7 +9,7 @@ body {
   display: flex;
   font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
   height: 100vh;
-  background: linear-gradient(45deg, rgb(3, 127, 36) 75%, rgb(3, 137, 139) 25%);
+  background: linear-gradient(45deg,  rgb(26, 255, 234)75%, rgb(32, 32, 32) 25%);
 }
 .profile > i {
   position: absolute;
@@ -74,7 +74,7 @@ body {
   border: none;
 }
 .button {
-  background-color: maroon;
+  background-color: rgb(239, 17, 17);
   color: #fff;
   border: none;
   padding: 6.5px 30px;
@@ -119,4 +119,46 @@ p {
   background-color: rgba(253, 253, 253, 0.068);
   padding: 2px 5px;
   border-radius: 5px;
+}
+
+/* responsive website*/
+@media(max-width:900px)
+{
+  .row{
+    flex-direction: column;
+  }
+  .col{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+}
+@media(max-width:768px)
+{
+  .row{
+    flex-direction: column;
+  }
+  .col{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+    .congratulations-section {
+      width: 60%;
+      height: auto;
+               
+             
+
+         .workout-section {
+      width: 60%;
+      height: auto;
+             }
+
+            
+}
 }
